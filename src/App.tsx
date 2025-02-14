@@ -17,7 +17,7 @@ export function App() {
 
   const firstImg =
     "https://media.tenor.com/VIChDQ6ejRQAAAAj/jumping-bear-hearts-no-png.gif";
-  const secondImg = "public/1.gif";
+  const secondImg = "../public/1.gif";
 
   return (
     <div
