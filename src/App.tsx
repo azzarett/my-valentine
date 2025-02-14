@@ -17,8 +17,7 @@ export function App() {
 
   const firstImg =
     "https://media.tenor.com/VIChDQ6ejRQAAAAj/jumping-bear-hearts-no-png.gif";
-  const secondImg =
-    "https://media.tenor.com/f1xnRxTRxLAAAAAj/bears-with-kisses-bg.gif";
+  const secondImg = "public/1.gif";
 
   return (
     <div
@@ -73,7 +72,7 @@ export function App() {
         </>
       ) : (
         <>
-          <img src={secondImg} />
+          <img src={secondImg} style={{width: "350px"}}/>
           <div style={{ fontSize: "48px", color: "pink", fontWeight: "bold" }}>
             Ураааааааааааааааааа!!! 💖🎉
           </div>
